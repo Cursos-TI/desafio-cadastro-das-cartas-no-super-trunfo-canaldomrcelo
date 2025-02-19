@@ -1,26 +1,35 @@
 #include <stdio.h> 
 
 int main() {
+    
+    //Declaração
+    char estado;
+    char codigo[3];
+    char cidade[20];
+    int populacao;
+    float km;
+    float PIB;
+    int pontosturisticos;
 
     // Carta 1
 
-    char estado1;
-    char codigo1[10];
-    char cidade1[20];
-    int populacao1;
-    float km1;
-    float PIB1;
-    int pontosturisticos1;
+    estado = 1;
+    codigo[3] = 1;
+    cidade[20] = 1;
+    populacao = 1;
+    km = 1;
+    PIB = 1;
+    pontosturisticos = 1;
     
     // Carta 2
     
-    char estado2;
-    char codigo2[10];
-    char cidade2[20];
-    int populacao2;
-    float km2;
-    float PIB2;
-    int pontosturisticos2;
+    estado = 2;
+    codigo[3] = 2;
+    cidade[20] = 2;
+    populacao = 2;
+    km = 2;
+    PIB = 2;
+    pontosturisticos = 2;
 
     return 0;
 }
