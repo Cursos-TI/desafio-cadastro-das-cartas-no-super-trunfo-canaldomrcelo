@@ -4,7 +4,7 @@ int main() {
     
     //Declaração
     char estado, codigo[3], cidade[20];
-    int populacao;
+    int populacao;                            //variaveis com as caracteristicas das cartas
     float km, PIB;
     int pontosturisticos;
 
