@@ -3,12 +3,9 @@
 int main() {
     
     //Declaração
-    char estado;
-    char codigo[3];
-    char cidade[20];
+    char estado, codigo[3], cidade[20];
     int populacao;
-    float km;
-    float PIB;
+    float km, PIB;
     int pontosturisticos;
 
     // Carta 1
