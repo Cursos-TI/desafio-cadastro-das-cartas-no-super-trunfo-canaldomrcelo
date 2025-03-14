@@ -34,7 +34,9 @@ int main() {
     
     printf("pontos turisticos: ");
     scanf("%d", &pontosturistico1);
-    printf("carta 1 inserida com sucesso\n");
+    printf("----------------------------------------------\n");
+    printf("CARTA 1 INSERIDA COM SUCESSO!!\n");
+    printf("----------------------------------------------\n");
 
     printf("INSIRA OS DADOS DA 2º CARTA:\n");
     
@@ -59,9 +61,8 @@ int main() {
     printf("pontos turisticos: ");
     scanf("%d", &pontosturistico2);
 
-    printf("cartas cadastradas com sucesso!!\n");
-
-
+    printf("----------------------------------------------\n");
+    printf("CARTA 2 INSERIDA COM SUCESSO!!\n");
     printf("----------------------------------------------\n");
     printf("CARTA 01\n\n");
     
@@ -98,5 +99,32 @@ int main() {
     printf("Pontos Turisticos: %d \n",pontosturistico2);
     
     printf("----------------------------------------------\n");
-
+    printf("COMPARAÇÃO DAS CARTAS \n");
+    printf("----------------------------------------------\n");
+    
+    if (populacao1 > populacao2)
+    {
+        printf("População: Carta 1 venceu!\n");
+    } else {
+        printf("População: Carta 2 venceu!\n");
+    }
+    if (area1 > area2)
+    {
+        printf("Àrea: Carta 1 venceu!\n");
+    } else {
+        printf("Àrea: Carta 2 venceu!\n");
+    }
+    if (pib1 > pib2)
+    {
+        printf("PIB: Carta 1 venceu!\n");
+    } else {
+        printf("PIB: Carta 2 venceu!\n");
+    }
+    if (pontosturistico1 > pontosturistico2)
+    {
+        printf("Pontos turísticos: Carta 1 venceu!\n");
+    } else {
+        printf("Pontos turísticos: Carta 2 venceu!\n");
+}
+printf("----------------------------------------------");
 }
