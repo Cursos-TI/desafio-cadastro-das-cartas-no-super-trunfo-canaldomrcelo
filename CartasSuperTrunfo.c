@@ -12,6 +12,9 @@ int main() {
     float pib1, pib2, area1, area2; 
     float densidade1, densidade2, pibpercapta1, pibpercapta2;
 
+
+    printf("Bem-vindo ao Super Trunfo Cidades!\n");
+    printf("Desafie seus amigos e descubra qual cidade tem os melhores atributos.\n\n");
     printf("INSIRA OS DADOS DA 1º CARTA:\n");
     
     printf("estado de A à H: ");
