@@ -1,8 +1,8 @@
 #include <stdio.h> 
 int main() {
-    //Declaração
-    char estado1, estado2, cidade1[20], cidade2[20], codigo1[5], codigo2[5];
-    int populacao1, populacao2, pontosturistico1, pontosturistico2;                         //variaveis com as caracteristicas das cartas
+    //Declaração das variaveis.
+    char estado1, estado2, cidade1[20], cidade2[20], codigo1[5], codigo2[5];       // armazena os dados de 1 caracter ou strings.
+    int populacao1, populacao2, pontosturistico1, pontosturistico2;                //variaveis de valores inteiros.
     float pib1, pib2, area1, area2, densidade1, densidade2, pibpercapta1, pibpercapta2, superpoder1, superpoder2;
 
     printf("Desafio Super Trunfo - Países!\n");
